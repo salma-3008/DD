@@ -23,11 +23,11 @@ jobs:
 
       - name: Run script
         run: |
-          cd Hero Motocorp
+          cd Hero_Motocorp
           python Hero_Motocorp.py
 
       - name: Upload CSV artifact
         uses: actions/upload-artifact@v4
         with:
           name: scraped-data-Hero Motocorp
-          path: Hero Motocorp/hero_showrooms_*.csv
+          path: Hero_Motocorp/hero_showrooms_*.csv
